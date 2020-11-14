@@ -28,12 +28,12 @@
         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-        <li class="nav-header">EXAMPLES</li>
+        <li class="nav-header">Company</li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="{{ route('global_config') }}" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
-                Gallery
+                Global Config
               </p>
             </a>
         </li>
